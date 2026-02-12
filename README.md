@@ -183,7 +183,9 @@ course_enrollment_platform/
 
 ## Deployment
 
-Deployed on Railway: [Add your deployment URL]
+Deployed on Render: https://course-enrolment-platform.onrender.com
+
+API Documentation: https://course-enrolment-platform.onrender.com/docs
 
 ## License
 
