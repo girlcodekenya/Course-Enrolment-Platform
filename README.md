@@ -86,7 +86,7 @@ alembic downgrade -1
 
 Run all tests:
 ```bash
-pytest
+python -m pytest
 ```
 
 Run with coverage:
