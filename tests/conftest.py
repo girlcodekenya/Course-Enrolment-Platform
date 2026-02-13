@@ -74,6 +74,7 @@ def student_token(client, test_student):
         "/api/v1/auth/login",
         data={"username": "student@test.com", "password": "password123"}
     )
+    assert response.status_code == 200, f"Login failed: {response.json()}"
     return response.json()["access_token"]
 
 
@@ -83,4 +84,5 @@ def admin_token(client, test_admin):
         "/api/v1/auth/login",
         data={"username": "admin@test.com", "password": "password123"}
     )
+    assert response.status_code == 200, f"Login failed: {response.json()}"
     return response.json()["access_token"]
