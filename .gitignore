@@ -1,2 +1,6 @@
 .env
 .env.local
+test.db
+tests/__pycache__/
+__pycache__/
+*.pyc
